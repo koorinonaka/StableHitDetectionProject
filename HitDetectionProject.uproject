@@ -5,11 +5,8 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
+			"Name": "StableHitDetection",
+			"Enabled": true
 		}
 	]
 }
