@@ -3,6 +3,8 @@
 #
 # Basic settings.
 #
+url: http://koorinonaka.github.io
+baseurl: /StableHitDetectionProject
 title: StableHitDetection
 description: Provides a fixed hit box that is not affected by frame rate.
 avatar: /assets/img/koorinonaka.jpg
