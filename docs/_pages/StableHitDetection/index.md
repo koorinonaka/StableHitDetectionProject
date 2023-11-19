@@ -5,7 +5,7 @@ permalink: /
 hide: true
 ---
 
-![top image](/assets/img/1176695b-7a49-fc62-1a73-fe591a5078c4.png)
+![top image]({{ site.baseurl }}/assets/img/1176695b-7a49-fc62-1a73-fe591a5078c4.png)
 
 ## Features
 - MultiTrace `Line`/`Sphere`/`Box`/`Capsule` hit detection in the AnimNotify section.
@@ -18,7 +18,7 @@ hide: true
 - UE 5.0 and more!
 
 ## Installation & Usage
-See the [Tutorial](/StableHitDetection/Installation) and [Sample Project](https://github.com/koorinonaka/StableHitDetectionProject).
+See the [Tutorial]({{ site.baseurl }}/StableHitDetection/Installation) and [Sample Project](https://github.com/koorinonaka/StableHitDetectionProject).
 
 ## SampleAnimation
 <blockquote class="twitter-tweet" data-theme="dark"><p lang="zh" dir="ltr">記事用途 <a href="https://t.co/6KaLxTGONH">pic.twitter.com/6KaLxTGONH</a></p>&mdash; あいす (@koorinonaka) <a href="https://twitter.com/koorinonaka/status/1645127953511251969?ref_src=twsrc%5Etfw">April 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

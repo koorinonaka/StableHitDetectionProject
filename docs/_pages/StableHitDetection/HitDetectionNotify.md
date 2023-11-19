@@ -10,8 +10,8 @@ This `AnimNotify` class uses `MultiTrace` implemented in the engine to detect hi
 ​
 ## Frame Rate
 <ul id="c3eca504-f5d0-fd28-174f-b052e20a30ef">
-<li><img src="/assets/img/7d8f9d49-0733-72fa-5a8b-38489222ed88.gif" alt="substeps off"></li>
-<li><img src="/assets/img/2c7bab73-08e2-08df-d170-a40db4f4acf8.gif" alt="substeps on"></li>
+<li><img src="{{ site.baseurl }}/assets/img/7d8f9d49-0733-72fa-5a8b-38489222ed88.gif" alt="substeps off"></li>
+<li><img src="{{ site.baseurl }}/assets/img/2c7bab73-08e2-08df-d170-a40db4f4acf8.gif" alt="substeps on"></li>
 </ul>
 <style>
 	ul#c3eca504-f5d0-fd28-174f-b052e20a30ef {
@@ -32,13 +32,13 @@ If load is a concern, it can be switched off, but note that if there is severe p
 ​
 ## TraceChannel
 Can only be set in the BP class of AnimNotify. Default is `Visiblity`.
-[Consider adding a trace channel](/StableHitDetection/Installation#modify-collision-settings) to ensure that the character mesh is not hit.
+[Consider adding a trace channel]({{ site.baseurl }}/StableHitDetection/Installation#modify-collision-settings) to ensure that the character mesh is not hit.
 
 ## MultiTraceAdapter
 Call `KismetSystemLibrary::XXXTraceMulti` between each socket location; supports `Line`/`Sphere`/`Box`/`Capsule`.
 ​
 ## HitDirectionEffector
-![HitDirection](/assets/img/44ebb3e1-cacc-de28-aabd-a11438630eea.png)
+![HitDirection]({{ site.baseurl }}/assets/img/44ebb3e1-cacc-de28-aabd-a11438630eea.png)
 
 Set the hit direction to play the hit effect; do not use `Normal` or `ImpactNormal` in the `HitResult`.
 ​
@@ -71,12 +71,12 @@ Determines whether `HitSocketComponent` is valid for any of the child components
 ### VerifyAnyHit
 Notified when a hit is made by `NotifyTick`.
 
-![VerifyAnyHit](/assets/img/bbe07310-f66c-d158-7b9a-ca7e15e69004.png)
+![VerifyAnyHit]({{ site.baseurl }}/assets/img/bbe07310-f66c-d158-7b9a-ca7e15e69004.png)
 
 Example of debugging the drawing of `HitResults` from the impact point to the hit direction.
 
 ## AnimNS_HitDetection_SingleSocket
-![SingleSocket](/assets/img/f0a01716-1596-2b1a-3275-75624d313d64.png)
+![SingleSocket]({{ site.baseurl }}/assets/img/f0a01716-1596-2b1a-3275-75624d313d64.png)
 Trace frame positions before and after a single socket.
 
 |MultiTraceAdapter|Tracing between sockets.|
@@ -84,7 +84,7 @@ Trace frame positions before and after a single socket.
 |Socket.RelativeTransform|Adjustment values based on socket transform.|
 
 ## AnimNS_HitDetection_MultiSocket
-![MultiSocket](/assets/img/bdfefc70-03db-018a-989c-e3dc2a3d9f16.png)
+![MultiSocket]({{ site.baseurl }}/assets/img/bdfefc70-03db-018a-989c-e3dc2a3d9f16.png)
 Trace frame positions before and after a multi socket.
 
 |Trace (Other at Current Frame)|Tracing between different sockets in the same frame. |
@@ -94,4 +94,4 @@ Trace frame positions before and after a multi socket.
 ## AnimNS_HitDetection_HitComponent
 `HitSocketComponent`, a child component of the attached weapon actor, is traced as a socket location.
 Although it is easier to use a socket, **this method is recommended as it has many advantages, such as easier adjustment of the decision position and the ability to change weapons**.
-Parameters are the same as for `MultiSocket`. For previews, see **[PreviewScene](/StableHitDetection/PreviewScene)** settings.
+Parameters are the same as for `MultiSocket`. For previews, see **[PreviewScene]({{ site.baseurl }}/StableHitDetection/PreviewScene)** settings.
