@@ -1,2 +1,0 @@
-# StableHitDetectionProject
-StableHitDetection sample project.

@@ -1,0 +1,73 @@
+# @ref https://github.com/ttskch/jekyll-ttskch-theme
+
+#
+# Basic settings.
+#
+title: StableHitDetection
+description: Provides a fixed hit box that is not affected by frame rate.
+avatar: /assets/img/koorinonaka.jpg
+favicon: /favicon.ico
+# language: ja
+language: en
+
+#
+# Icons
+#
+icons:
+  rss: false
+  email:
+  github: koorinonaka
+  bitbucket:
+  twitter: koorinonaka
+  facebook:
+  google_plus:
+  tumblr:
+  behance:
+  dribbble:
+  flickr:
+  instagram:
+  linkedin: # full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange: # full URL
+  steam:
+  wordpress:
+  youtube:
+
+#
+# Prettify url.
+#
+permalink: pretty
+
+#
+# Plugins.
+#
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jemoji
+
+#
+# !! Danger zone !!
+#
+
+include: ["_pages"]
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+excerpt_separator: <!--more-->
+
+sass:
+  sass_dir: _sass
+  style: :compressed # or :expanded
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
