@@ -1,6 +1,6 @@
 ---
 layout: page
-title: StableHitDetection
+title: Home
 permalink: /
 hide: true
 ---
