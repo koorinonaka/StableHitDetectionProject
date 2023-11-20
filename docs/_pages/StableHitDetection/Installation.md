@@ -13,7 +13,7 @@ Place plugins downloaded from the marketplace in the `Plugins` directory.
 ![AttackHit]({{ site.baseurl }}/assets/img/4f61e75e-36cd-d919-3de9-496ae2240824.png)
 
 It is recommended that custom collision settings are added to the project.
-In the sample project, `AttackHit` has been added; for the hit target, do not use `Block`, but set it up with `Overlap`.
+In the sample project, `AttackHit` has been added. For the hit target, do not use `Block`, but set it up with `Overlap`.
 For example, set `Overlap` for `BlockAll` `OverlapAll` `Pawn`, and `Ignore` for `CharacterMesh` `Trigger`.
 
 ## Add BP class for AnimNotify
@@ -46,4 +46,4 @@ Note that StableHitDetection only supports `AnimMontage` and cannot embed notify
 For the HitComponent to work correctly, the WeaponActor must also be spawned in the PreviewScene. Set up according to the [PreviewScene documentation]({{ site.baseurl }}/StableHitDetection/PreviewScene).
 
 ### Configure AnimNotify
-Add to the timeline in the same way as a normal notify.
+Add it to the timeline in the same way as a normal notify.
