@@ -9,7 +9,7 @@ hide: true
 
 ## Features
 - MultiTrace `Line`/`Sphere`/`Box`/`Capsule` hit detection in the AnimNotify section.
-- **Hit misses due to low FPS or hitching are completely preventable**.
+- **Hits missed due to low FPS or hitching are completely preventable**.
   - The position of the hit box is fixed and is not affected by delta time.
 - Generate a mesh of hit box between sockets or components.
 - Actor spawning and attachment in anim preview scenes (extra).
