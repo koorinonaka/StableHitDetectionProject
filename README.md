@@ -5,7 +5,7 @@
   </tr>
 </table>
 
-`StableHitDetection` is designed to completely prevent missed hits.
+`StableHitDetection` is designed to completely prevent missed hits.<br />
 The combination of AnimNotify and MultiTrace provides an optimal hit detection solution.
 
 ## Features
