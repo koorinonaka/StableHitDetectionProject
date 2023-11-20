@@ -77,6 +77,7 @@ Example of debugging the drawing of `HitResults` from the impact point to the hi
 
 ## AnimNS_HitDetection_SingleSocket
 ![SingleSocket]({{ site.baseurl }}/assets/img/f0a01716-1596-2b1a-3275-75624d313d64.png)
+
 Trace frame positions before and after a single socket.
 
 |MultiTraceAdapter|Traces between sockets.|
@@ -85,6 +86,7 @@ Trace frame positions before and after a single socket.
 
 ## AnimNS_HitDetection_MultiSocket
 ![MultiSocket]({{ site.baseurl }}/assets/img/bdfefc70-03db-018a-989c-e3dc2a3d9f16.png)
+
 Trace frame positions before and after a multi socket.
 
 |Trace (Other at Current Frame)|Traces between different sockets in the same frame. |
