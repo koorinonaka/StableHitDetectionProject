@@ -6,7 +6,8 @@
 	"Plugins": [
 		{
 			"Name": "StableHitDetection",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ff3c3fdf455f4d77b6ae0c5586240503"
 		}
 	]
 }
