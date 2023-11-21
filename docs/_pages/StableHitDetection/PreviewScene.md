@@ -19,7 +19,7 @@ Create `BP_Weapon`. Here, it is created by inheriting from `StaticMeshActor`, bu
 
 ![Movable]({{ site.baseurl }}/assets/img/043328a1-e27d-0e57-4fdc-a9b2d9b92456.png)
 
-For `StaticMeshActor`, set `Transform.Movable` to `Moveable`.
+For `StaticMeshActor`, set `Transform.Movable` to `Movable`.
 Note that the default for StaticMesh Movable is `Static` and cannot be attached as is if the destination is `Movable`.
 
 ### Add HitSocketComponent

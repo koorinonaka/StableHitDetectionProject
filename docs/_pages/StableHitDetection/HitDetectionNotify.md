@@ -81,7 +81,7 @@ Example of debugging the drawing of `HitResults` from the impact point to the hi
 Trace frame positions before and after a single socket.
 
 |MultiTraceAdapter|Traces between sockets.|
-|Socket.SocketName|Specifying the socket position.|
+|Socket.Target|Specifying the socket position.|
 |Socket.RelativeTransform|Adjustment values based on socket transform.|
 
 ## AnimNS_HitDetection_MultiSocket
