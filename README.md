@@ -1,4 +1,4 @@
-[!['Video'](https://github.com/koorinonaka/StableHitDetectionProject/assets/39552085/39f120ec-f6b5-4e9c-b3b2-e27e7044258c)](https://www.youtube.com/watch?v=WcD6sRx8nAM)
+[![](https://img.youtube.com/vi/WcD6sRx8nAM/0.jpg)](https://www.youtube.com/watch?v=WcD6sRx8nAM)
 
 `StableHitDetection` is designed to completely prevent missed hits.<br />
 The combination of AnimNotify and MultiTrace provides an optimal hit detection solution.
