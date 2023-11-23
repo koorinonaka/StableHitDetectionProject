@@ -12,7 +12,7 @@ The combination of AnimNotify and MultiTrace provides an optimal hit detection s
 
 ## Installation
 1. Clone this repository.
-2. Place plugins downloaded from the marketplace in the `Plugins` directory.
+2. Place plugins downloaded from the [marketplace](https://www.unrealengine.com/marketplace/en-US/product/ff3c3fdf455f4d77b6ae0c5586240503) in the `Plugins` directory.
 
 ## Documents
 https://koorinonaka.github.io/StableHitDetectionProject/

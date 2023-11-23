@@ -7,7 +7,7 @@ hide: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WcD6sRx8nAM?si=i06AS-8zJXV152JB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-`StableHitDetection` is designed to completely prevent missed hits.<br />
+[StableHitDetection](https://www.unrealengine.com/marketplace/en-US/product/ff3c3fdf455f4d77b6ae0c5586240503) is designed to completely prevent missed hits.<br />
 The combination of AnimNotify and MultiTrace provides an optimal hit detection solution.
 
 ## Features
