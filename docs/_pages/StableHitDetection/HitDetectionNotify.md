@@ -97,3 +97,9 @@ Trace frame positions before and after a multi socket.
 `HitSocketComponent`, a child component of the attached weapon actor, is traced as a socket location.
 Although it is easier to use a socket, **this method is recommended as it has many advantages, such as easier adjustment of the decision position and the ability to change weapons**.
 Parameters are the same as for `MultiSocket`. For previews, see **[PreviewScene]({{ site.baseurl }}/StableHitDetection/PreviewScene)** settings.
+
+### Two-Handed Notify
+![Two-Handed]({{ site.baseurl }}/assets/img/c64101f3-388d-83a1-613b-7c2c5c82d905.png)
+
+Use `IgnoreTargets` when using multiple attach actors, e.g. two-handed.
+Split the notify in two and specify the socket name to ignore for each.
