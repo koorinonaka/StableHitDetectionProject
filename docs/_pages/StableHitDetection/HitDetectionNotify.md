@@ -94,12 +94,16 @@ Trace frame positions before and after a multi socket.
 |Trace (Other at Last Frame)|Traces between different sockets on different frames. Used to fill finer gaps.|
 
 ## AnimNS_HitDetection_HitComponent
-`HitSocketComponent`, a child component of the attached weapon actor, is traced as a socket location.
+`HitSocketComponent`, a child component of the attached actor, is traced as a socket location.
 Although it is easier to use a socket, **this method is recommended as it has many advantages, such as easier adjustment of the decision position and the ability to change weapons**.
 Parameters are the same as for `MultiSocket`. For previews, see **[PreviewScene]({{ site.baseurl }}/StableHitDetection/PreviewScene)** settings.
 
-### Two-Handed Notify
-![Two-Handed]({{ site.baseurl }}/assets/img/c64101f3-388d-83a1-613b-7c2c5c82d905.png)
+### When attaching multiple actors
+![MultipleAttachment]({{ site.baseurl }}/assets/img/c64101f3-388d-83a1-613b-7c2c5c82d905.png)
 
-Use `IgnoreTargets` when using multiple attach actors, e.g. two-handed.
-Split the notify in two and specify the socket name to ignore for each.
+HitComponent recursively searches for all `HitSocketComponents` attached to the `CharacterMesh`.
+When multiple actors are attached, e.g. two-faced, this can be inconvenient as all component location are connected.
+
+![SplitNotify]({{ site.baseurl }}/assets/img/321055cc-e65b-c4d4-bdd9-6aec7de79093.png)
+
+In this case, specify the attached socket names in `AllowedTargets` and split the notify.
