@@ -15,6 +15,7 @@ The combination of AnimNotify and MultiTrace provides an optimal hit detection s
   - The transform of the hit box is fixed and is not affected by delta time.
 - MultiTrace `Line`/`Sphere`/`Box`/`Capsule` hit detection in the AnimNotify section.
   - Generate a mesh of hit box between sockets or components.
+- Can be combined with any inventory system.
 - Actor spawning and attachment in anim preview scenes (extra).
 
 ## Requirement
