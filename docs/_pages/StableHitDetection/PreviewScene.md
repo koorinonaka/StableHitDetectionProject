@@ -16,7 +16,7 @@ If the `HitDetection_HitComponent` notify is used, this setting must be enabled 
 ![BP_Weapon]({{ site.baseurl }}/assets/img/e25df79a-b016-7081-0a80-dd8e7a7a2c55.png)
 
 Create `BP_Weapon`. Here, it is created by inheriting from `StaticMeshActor`, but the inheritance class can be chosen arbitrarily.
-If you already have a weapon actor to use in the game, there is no need to create a new one; skip to the HitSocketComponent section.
+**If you already have a weapon actor to use in the game, there is no need to create a new one;** skip to the HitSocketComponent section.
 
 ![Movable]({{ site.baseurl }}/assets/img/043328a1-e27d-0e57-4fdc-a9b2d9b92456.png)
 
